@@ -261,4 +261,52 @@ nav li button{
     margin-bottom: 25px;
 }
 
+
+/* donate today styles  */
+.donate-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.donate-card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 15px 0;
+   
+}
+
+.donate-amount:hover{
+    background: rgb(198, 228, 214);
+}
+
+#200TK{
+    background:  rgb(198, 228, 214);
+}
+
+#200TK:hover{
+    background: white;
+}
+
+.donate-container input{
+    width: 1035px;
+    height: 45px;
+    border: none;
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+
 }
