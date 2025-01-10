@@ -84,7 +84,7 @@ nav li button{
 }
 
 .hero-content h1{
-    font-size: 40px;
+    font-size:  50px;
     font-weight: 700;
     line-height: 50px;
     margin: 16px 0;
@@ -267,6 +267,7 @@ nav li button{
     justify-content: center;
     text-align: center;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .donate-card{
@@ -293,13 +294,6 @@ nav li button{
     background: rgb(198, 228, 214);
 }
 
-#200TK{
-    background:  rgb(198, 228, 214);
-}
-
-#200TK:hover{
-    background: white;
-}
 
 .donate-container input{
     width: 1035px;
@@ -310,3 +304,23 @@ nav li button{
     text-align: center;
 
 }
+
+
+footer > h3{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-container ul{
+    height: 140px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
