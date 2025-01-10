@@ -190,4 +190,22 @@ nav li button{
     font-size: 20px;
 }
 
+/* quotes section styles  */
+
+.quotes-container{
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    line-height: 24px;
+    border-radius: 10px;
+    background-image: url('./assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 20px 15px;
+}
+
+.designation{
+    margin: 8px 0;
+}
+
 
