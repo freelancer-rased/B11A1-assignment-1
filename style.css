@@ -267,7 +267,7 @@ nav li button{
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
 }
 
 .donate-card{
@@ -305,6 +305,56 @@ nav li button{
 
 }
 
+
+/* newslatter section styles  */
+.newslatter-container{
+    height: 300px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 10px;
+    
+}
+
+.news-input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+ 
+    
+}
+
+main{
+    padding-bottom: 50px;
+}
+
+.subscribe-btn{
+    background: rgb(0, 106, 80);
+    padding: 10px 15px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -10px;
+    
+}
+
+.subscribe-btn:hover{
+    background-color: white;
+    color: #006a50;
+    border: 1px solid #006a50;
+}
+
+
+
+/* footer section styles  */
 
 footer > h3{
     text-align: center;
