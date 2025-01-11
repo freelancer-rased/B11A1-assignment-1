@@ -63,6 +63,13 @@ nav li button{
     font-weight: 600;
 }
 
+.nav-btn:hover{
+        background-color: #006a50;
+        color: white;
+        border: 1px solid #006a50;
+    }
+
+
 /* hero section style  */
 .hero-container{
     height: 470px;
@@ -207,6 +214,47 @@ nav li button{
 .designation{
     margin: 8px 0;
 }
+
+/* opinion section  */
+
+.opinion-container{
+    margin-top: 70px;
+}
+
+.opinion-container h2{
+    margin-bottom: 30px;
+}
+
+table{
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    padding: 30px;
+    border-collapse: collapse;
+    font-weight: 600;
+}
+
+table td{
+    border: 1px solid rgba(14, 14, 14, 0.15);;
+    padding: 20px;
+    width: 100%;
+}
+
+table th{
+    background: rgb(198, 228, 214);
+    padding: 15px 20px;
+    width: 100%;
+    text-align: start;
+
+}
+
+tbody select{
+    padding: 10px 15px;
+    background: rgb(198, 228, 214);
+    border-radius: 5px;
+}
+
+
 
 
 /* recent news section style  */
